@@ -22,7 +22,7 @@ int updateBit(int n,int pos,int operation) {
 }
 
 int main() {
-    cout<<updateBit(5,2,1)<<endl;
+    cout<<updateBit(11,2,1)<<endl;
     cout<<updateBit(5,2,0);
     return 0;
 }
