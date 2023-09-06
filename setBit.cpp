@@ -7,7 +7,7 @@ using namespace std;
 // 2. Operation : OR
 
 int setBit(int n,int pos) {
-    return ((n & (1<<pos)) != 0);
+    return ((n | (1<<pos)) != 0);
 }
 
 int main() {
