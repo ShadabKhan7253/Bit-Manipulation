@@ -2,9 +2,9 @@
 
 using namespace std;
 
-// - Divide by 2 : left shit by 1;
-// - Divide by 4 : left shit by 2;
-// - Divide by 8 : left shit by 3;
+// - Divide by 2 : right shit by 1;
+// - Divide by 4 : right shit by 2;
+// - Divide by 8 : right shit by 3;
 // and so on;
 
 int divideByPowerof2(int n) {
